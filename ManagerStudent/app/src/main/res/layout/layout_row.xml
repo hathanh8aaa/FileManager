@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mssv"
+                android:textSize="18sp"
+                android:layout_weight="3"
+                android:text="20173075"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textSize="18sp"
+                android:layout_weight="5"
+                android:text="Phạm Thị Mỹ Duyên"
+                android:singleLine="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/birthday"
+                android:textSize="18sp"
+                android:text="13/07/1999"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:textSize="18sp"
+                android:singleLine="true"
+                android:text="phamduyen13799@gmail.com"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:textSize="18sp"
+                android:singleLine="true"
+                android:text="ngách 56, ngõ Tự Do, HBT, HN"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

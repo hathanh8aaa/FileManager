@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="10dp"
+        android:background="#55dddddd"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="To write you content..."
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#dddddddd"
+        android:padding="10dp"
+        android:hint="To write your file name"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btnWriteSDFile"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Write SD File"
+        />
+
+    <Button
+        android:id="@+id/btnClearScreen"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="ClearScreen"
+        />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        />
+
+
+
+
+</LinearLayout>
